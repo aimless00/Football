@@ -36,7 +36,20 @@ Website Font styles
     height: 438px;
     margin-top: 153px;
     margin-bottom: 86px;
-    margin-left: 102px;}
+    margin-left: 102px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    width: 168px;
+    font-size: 16px;
+    background-color: #E02C6D;
+    padding: 15px;
+    margin-left: 156px;
+}
+.arrow{
+    margin-left: 10px;
+}
 
  /* Main Section styles */
 .top-player-list{
@@ -45,6 +58,7 @@ Website Font styles
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .player{
     background-color: #FFFFFF;
@@ -74,7 +88,9 @@ Website Font styles
     display: flex;
 }
 .highlights{
-    margin-top: 220px;
+    margin-top: 120px;
+    width: 469px;
+    height: 309px;
 }
 .highlights-title{
     width: 469px;
@@ -91,4 +107,32 @@ Website Font styles
     height: 427px;
     margin-left: 66px;
     margin-top: 130px
+}
+.live-link a{
+    text-decoration: none;
+    color: white;
+    width: 168px;
+    font-size: 16px;
+    background-color: #E02C6D;
+    padding: 15px;
+}
+
+    /* Footer-Styles */
+.footer-section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 155px;
+}
+.footer-img img{
+    width: 483.87px;
+    height: 110px;
+}
+.fab{
+    margin: 20px 10px;
+    color: #969BAB;
+}
+.footer-text{
+    font-size: 18px;
+    color: #252424;
 }
