@@ -2,3 +2,57 @@
 Website Font styles
 ------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/*----------------
+ Main Stucture-style
+ -------------------*/
+ body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(211, 212, 214);
+ }
+
+ /* Heading-Style */
+ .top-section{
+     display: flex;
+     justify-content: center;
+     background-color: blue;
+ }
+ .section-title{
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-top: 207px;
+    margin-left: 156px;
+ }
+ .section-banner img{
+    width: 556px;
+    height: 438px;
+    margin-top: 153px;
+    margin-bottom: 86px;
+    margin-left: 102px;}
+
+ /* Main Section styles */
+.top-player-list{
+    margin-top: 70px;
+}
+.player{
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+.player-img img{
+    width: 300px;
+    height: 256px;
+}
+.player-name{
+    font-size: 28px;
+    width: 300px;
+}
+.player-info{
+    width: 300px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #6C6C6C;
+    margin: 10px 0px;
+    align-self: stretch;
+}
