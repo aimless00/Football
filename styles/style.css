@@ -10,12 +10,18 @@ Website Font styles
     font-family: 'Poppins', sans-serif;
     background-color: rgb(211, 212, 214);
  }
+ main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
  /* Heading-Style */
  .top-section{
      display: flex;
      justify-content: center;
      background-color: blue;
+     margin-bottom: 40px;
  }
  .section-title{
     width: 485px;
@@ -36,23 +42,53 @@ Website Font styles
 .top-player-list{
     margin-top: 70px;
 }
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 .player{
     background-color: #FFFFFF;
     padding: 15px;
+    width: 330px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    
 }
-.player-img img{
-    width: 300px;
-    height: 256px;
+.player img{
+    width: 100%;
 }
 .player-name{
     font-size: 28px;
-    width: 300px;
+    width: 100%;
 }
 .player-info{
     width: 300px;
     font-size: 16px;
     font-weight: 400px;
     color: #6C6C6C;
-    margin: 10px 0px;
-    align-self: stretch;
+    margin-top:10px;
+}
+
+/* hightlight-section styles */
+.all-highlights{
+    display: flex;
+}
+.highlights{
+    margin-top: 220px;
+}
+.highlights-title{
+    width: 469px;
+    height: 120px;
+    font-size: 48px;
+}
+.match-details{
+    width: 404px;
+    height: 113px;
+    color: #6C6C6C;
+}
+.match-banner img{
+    width: 567px;
+    height: 427px;
+    margin-left: 66px;
+    margin-top: 130px
 }
