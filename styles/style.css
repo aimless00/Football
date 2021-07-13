@@ -8,7 +8,7 @@ Website Font styles
  -------------------*/
  body{
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(211, 212, 214);
+    background-color: rgb(226, 230, 238);
  }
  main{
     display: flex;
@@ -38,6 +38,10 @@ Website Font styles
     margin-bottom: 86px;
     margin-left: 102px;
 }
+.section-banner:hover img{
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    transition: transform 2.5s ease-in-out;
+}
 .link a{
     text-decoration: none;
     color: white;
@@ -49,6 +53,9 @@ Website Font styles
 }
 .arrow{
     margin-left: 10px;
+}
+.top-section-info .link:hover a{
+    background-color: rgb(58, 169, 197);
 }
 
  /* Main Section styles */
@@ -64,7 +71,7 @@ Website Font styles
     background-color: #FFFFFF;
     padding: 15px;
     width: 330px;
-    margin-left: 30px;
+    margin-right: 30px;
     margin-bottom: 30px;
     
 }
@@ -116,6 +123,34 @@ Website Font styles
     background-color: #E02C6D;
     padding: 15px;
 }
+
+   /*------------
+    Recent-Match Style
+   ----------------*/
+   .recent-matches{
+       width: 688px;
+       margin-top:30px ;
+   }
+   .match-title{
+       text-align: center;
+   }
+   .recent-match{
+       display: flex;
+       justify-content: space-between;
+   }
+   .matches{
+       display: flex;
+       justify-content: space-between;
+   }
+   .match-1{
+       margin-right: 15px;
+   }
+   .match-2{
+       margin-right: 15px;
+   }
+   span{
+       margin-left: 10px;
+   }
 
     /* Footer-Styles */
 .footer-section{
