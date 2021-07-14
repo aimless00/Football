@@ -227,7 +227,27 @@ Website Font styles
         width: 250px;
         margin-left: 5px;
     }
-    .recent-matches,.footer-section{
-        display: none;
+    .match-title{
+        width: 220px;
+        align-items: center;
+        padding-left: 150px;
+    }
+    .recent-match{
+        flex-direction: column;
+    }
+    .matches{
+        flex-direction: column;
+        padding-left: 150px;
+    }
+    .footer-section{
+        width: 220px;
+    }
+    .footer-img img{
+        width: 250px;
+    }
+    .footer-text{
+        width: 250px;
+        margin-left: 15px;
+        align-items: center;
     }
  }
