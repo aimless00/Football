@@ -184,20 +184,50 @@ Website Font styles
         width: 100%;
     }
     .section-title{
-        width: 300px;
-        height: 300px;
-        font-size: 46px;
+        width: 200px;
+        height: 200px;
+        font-size: 36px;
         margin: 0;
     }
     .link a{
         margin: 0;
     }
     .section-banner img{
-        width: 400px;
-        height: 400px;
+        width: 260px;
+        height: 200px;
         margin: 0%;
     }
-    .top-player-list,.all-highlights,.recent-matches,.footer-section{
+    .top-player-list{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        width: 200px;
+    }
+    .player-info{
+        width: 200px;
+    }
+    .all-highlights{
+        flex-direction: column;
+        width: 100%;
+    }
+    .highlights-title{
+        width: 200px;
+    }
+    .match-details{
+       display: none;
+    }
+    .live-link{
+        margin-top: 130px;
+        margin-left: 110px;
+    }
+    .match-banner img{
+        width: 250px;
+        margin-left: 5px;
+    }
+    .recent-matches,.footer-section{
         display: none;
     }
  }
