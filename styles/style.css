@@ -199,4 +199,7 @@ Website Font styles
         width: 100%;
         margin: 0%;
     }
+    .top-player-list,.all-highlights,.recent-matches,.footer-section{
+        display: none;
+    }
  }
