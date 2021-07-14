@@ -197,6 +197,7 @@ Website Font styles
         height: 200px;
         margin: 0%;
     }
+    /* main-section media-quary */
     .top-player-list{
         width: 100%;
     }
@@ -243,11 +244,12 @@ Website Font styles
         width: 220px;
     }
     .footer-img img{
-        width: 240px;
+        width: 220px;
     }
     .footer-text{
-        width: 240px;
-        margin-left: 15px;
+        width: 230px;
+        margin-left: 10px;
+        font-size: 15px;
         align-items: center;
     }
  }
