@@ -22,6 +22,7 @@ Website Font styles
      justify-content: center;
      background-color: blue;
      margin-bottom: 40px;
+     width: 100%;
  }
  .section-title{
     width: 485px;
@@ -184,9 +185,7 @@ Website Font styles
         flex-direction: column;
         background-color: blue;
     }
-    .top-section-info{
-        width: 100%;
-        margin: 0%;
+    .top-section-info{ margin: 0%;
     }
     .section-title{
         margin: 0%;
