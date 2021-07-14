@@ -8,7 +8,7 @@ Website Font styles
  -------------------*/
  body{
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(226, 230, 238);
+    background-color: rgb(241, 250, 249);
  }
  main{
     display: flex;
@@ -65,7 +65,7 @@ Website Font styles
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 30px 10px 40px rgba(29, 27, 27, 0.15);
 }
 .player{
     background-color: #FFFFFF;
@@ -171,3 +171,32 @@ Website Font styles
     font-size: 18px;
     color: #252424;
 }
+
+
+/*-------------
+ MEDIA-QUERY-ADD 
+ ---------------*/
+
+ @media only screen and (max-width:688px){
+    
+    .top-section{
+        width: 100%;
+        flex-direction: column;
+        background-color: blue;
+    }
+    .top-section-info{
+        width: 100%;
+        margin: 0%;
+    }
+    .section-title{
+        margin: 0%;
+        font-size: 40px;
+    }
+    .link a{
+        margin: 0%;
+    }
+    .section-banner img{
+        width: 100%;
+        margin: 0%;
+    }
+ }
